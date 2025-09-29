@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #ff9800;
+    --secondary-color: #333;
+    --border-radius: 10px;
+    --transition-speed: 0.3s;
+}
+
+main{
+    background-color: var(--primary-color);
+    width: auto;
+    height: 100vh;
+    width: 100%;
+}
+
+    img{
+        cursor: pointer;
+        opacity: 0.8;
+        border-radius: var(--border-radius);
+        margin: 10px;
+        box-sizing: border-box;
+
+    }
+        img:hover{
+            opacity: 1;
+            transition: all .3s ease-in-out;
+            scale: 1.3;
+            z-index: 100; /* Garante que o elemento vai flutuar acima dos outros */
+        
+        }
+
+#menu_lateral{
+    background-color: var(--secondary-color);
+    width: 13svh;
+    height: 100vh;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#Painel1{
+    overflow-y: scroll;
+    width: 75%;
+    height: 65px;
+    margin: 10px auto ;
+    font-size: 16px;
+    background-color: #1E2328;
+    color: white;
+    box-shadow: 1px 1px 5px black;
+    -ms-overflow-style: none;  /* Para IE e Edge */
+    scrollbar-width: none;     /* Para Firefox */
+    border-radius: 8px;
+
+}
+
+#Painel1:hover{
+    background-color: #1E2328;
+    color: white;
+    box-shadow: 1px 1px 5px black;
+    border: 2px solid black;
+    scale: 1.02;
+    padding: 5px;
+    width: 70%;
+    z-index: 100; /* Garante que o elemento vai flutuar acima dos outros */
+    transform: scale(1.2);/* Expande o elemento em 5% */
+    font-size: 15px;
+    transition: all .3s ease-in-out;
+    overflow-y: scroll;
+    text-align: justify;
+
+}

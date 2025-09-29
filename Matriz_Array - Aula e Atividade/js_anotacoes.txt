@@ -1,0 +1,6 @@
+Funções - 04/09
+- Function Soma() { Bloco do Código} // Código que executa ao chamar a função
+    - Chamada da Função: Soma()
+- Function(){ Bloco do Código} // Função anonima
+
+- return -  

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="table">
+
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+        <br>
+        <br>
+        <label for="senha">Senha: </label>
+        <input type="password" placeholder="Digite sua senha">
+        
+        <br>
+        <br>
+        
+        <label for="telefone">Telefone: </label>
+        <input type="tel" id="telefone" name="telefone">
+        
+        <br>
+        <br>
+        
+        <label for="satisfacao">Nivel de satisfacao</label>
+        <input type="range" id="satisfacao" name="satisfacao">
+        
+        <br>
+        <br>
+        
+        <label for="cor">Escolha uma cor: </label>
+        <input type="color" name="cor" id="cor">
+        
+        <br>
+        <br>
+        
+        <label for="linguagens"><input type="checkbox" name="linguagens" value="HTML">HTML</label>
+        <label for="linguagens"><input type="checkbox" name="linguagens" value="CSS">CSS</label>
+        <label for="linguagens"><input type="checkbox" name="linguagens" value="JavaScript">JavaScript</label>
+        
+        <br>
+        <br>
+        
+        <p>Sexo</p>
+        <label><input type="radio" name="sexo" value="masculino">Masculino </label>
+        <label><input type="radio" name="sexo" value="feminino">Feminino </label>
+        <label><input type="radio" name="sexo" value="outros">Outros </label>
+        
+        <br>
+        <br>
+        
+        <!--Select e option-->
+        <label for="pais">Pais</label>        
+        <select name="pais" id="pais">
+            <option value="">selecione</option>
+            <option value="br">Brasil</option>
+            <option value="pt">Portugal</option>
+            <option value="eua">Estados unidos</option>
+        </select>
+        <br>
+        <br>
+        
+        <!-- Input type File-->
+        <label for="file">Selecione um arquivo</label>
+        <input type="file" name="foto" id="file">
+        <br>
+        <br>
+        
+        <!-- Input textarea-->
+        <label for="bio">Biologia: </label>
+        <textarea name="bio" id="bio" rows="4" cols="50" placeholder="Fale um pouco mais"></textarea>
+        <br>
+        <br>
+        
+        <!-- Input type hidden-->
+        <input type="hidden" name="form_id" value="12345"><br><br>
+
+        <!-- Button -->
+        <button type="submit">Enviar</button>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="limpar">
+    
+    </form>
+</body>
+</html>
