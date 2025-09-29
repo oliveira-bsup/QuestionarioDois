@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+}
+nav{
+    float: left;
+    width: 20%;
+    height: calc(100vh - 100px); 
+    margin-top: 60px;
+    background-color: azure;
+    padding: 10px;
+    box-sizing: border-box;
+}
+main{
+    background-color: lightgray;
+    float: left;
+    width: 80%;
+    margin-top: 60px;
+    padding: 10px;
+    min-height: calc(100vh - 100px);
+    box-sizing: border-box;
+}
+
+
+.apresentacao{
+    height: 250px;
+    text-align: center;
+    margin-bottom: 10px;
+
+
+}
+
+
+img{
+        cursor: pointer;
+        opacity: 0.8;
+        margin: 10px;
+        box-sizing: border-box;
+        height: vh;
+    }
+        img:hover{
+            opacity: 1;
+            transition: all .3s ease-in-out;
+            scale: 1.2;
+            z-index: 100; /* Garante que o elemento vai flutuar acima dos outros */
+        
+        }
+footer{
+    clear: both;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+}
